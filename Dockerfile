@@ -11,7 +11,7 @@ VOLUME /tmp
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=target\EmployeeManagementSystemSpringBootApplication.jar
+ARG JAR_FILE=EmployeeManagementSystemSpringBootApplication.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} EmployeeManagementSystemSpringBootApplication.jar
